@@ -17,6 +17,10 @@ public class ClientBeanName {
 		BeanNameHelloMessage msgBean2 = (BeanNameHelloMessage) ctx.getBean("myMessage");
 
 		System.out.println(msgBean2.getMessage());
+		
+		BeanNameHelloMessage msgBean3 = (BeanNameHelloMessage) ctx.getBean("motd");
+
+		System.out.println(msgBean3.getMessage());
 
 
 	}
