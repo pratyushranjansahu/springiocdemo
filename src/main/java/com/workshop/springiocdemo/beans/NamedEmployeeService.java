@@ -1,7 +1,9 @@
 package com.workshop.springiocdemo.beans;
 
+import javax.annotation.ManagedBean;
 import javax.inject.Inject;
 import javax.inject.Named;
+//@ManagedBean
 @Named
 public class NamedEmployeeService {
 	private NamedEmployee employee;
